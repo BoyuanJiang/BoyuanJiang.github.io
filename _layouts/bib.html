@@ -122,6 +122,7 @@
           {%- endif %}
           {%- if entry.code %}
             <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+            <img style="border: 0px;padding: 0px;border-radius: 5px;" src="{{ entry.stars }}" alt="GitHub stars" title="" />
           {%- endif %}
           {%- if entry.poster %}
             {% if entry.poster contains '://' -%}
