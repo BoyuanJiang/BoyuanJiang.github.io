@@ -17,5 +17,5 @@ nav: true
 </div>
 
 <div class="clustrmaps">
-  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=EjRGPh2Dr65dqTqraYvkUlCl05O1zHSXvOMxpN_2rkQ&cl=ffffff&w=a"></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=300&t=tt&d=EjRGPh2Dr65dqTqraYvkUlCl05O1zHSXvOMxpN_2rkQ&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353'></script>
 </div>
