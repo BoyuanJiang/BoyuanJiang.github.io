@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Researcher at Tencent Youtu Lab.
+subtitle: Senior Researcher at Tencent Youtu Lab.
 
 profile:
   align: right
