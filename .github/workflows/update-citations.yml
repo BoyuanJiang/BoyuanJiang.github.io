@@ -1,0 +1,42 @@
+name: Update Google Scholar Citations
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - ".github/workflows/update-citations.yml"
+      - "scripts/fetch_citations.py"
+
+permissions:
+  contents: write
+
+jobs:
+  update-citations:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install scholarly requests
+
+      - name: Fetch Google Scholar citations
+        run: python scripts/fetch_citations.py
+
+      - name: Commit citation data if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add _data/citations.json assets/js/citations-data.js
+          git diff --quiet --cached || (git commit -m "Update citations from Google Scholar" && git push)
