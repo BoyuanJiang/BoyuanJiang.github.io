@@ -1,5 +1,5 @@
 window.__CITATION_DATA__ = {
-  "last_updated": "2026-07-03 10:25:30 UTC",
+  "last_updated": "2026-07-04 09:58:30 UTC",
   "scholar_id": "u62rcKoAAAAJ",
   "total_citations": 1844,
   "h_index": 14,
