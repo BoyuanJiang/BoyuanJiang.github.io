@@ -1,13 +1,13 @@
 window.__CITATION_DATA__ = {
-  "last_updated": "2026-07-04 09:58:30 UTC",
+  "last_updated": "2026-07-09 10:44:26 UTC",
   "scholar_id": "u62rcKoAAAAJ",
-  "total_citations": 1844,
+  "total_citations": 1847,
   "h_index": 14,
   "i10_index": 19,
   "papers": {
     "ifrnet": {
       "title": "Ifrnet: Intermediate feature refine network for efficient frame interpolation",
-      "citations": 271,
+      "citations": 273,
       "year": "2022",
       "url": "u62rcKoAAAAJ:LkGwnXOMwfcC"
     },
