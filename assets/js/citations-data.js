@@ -1,7 +1,7 @@
 window.__CITATION_DATA__ = {
-  "last_updated": "2026-07-17 09:45:05 UTC",
+  "last_updated": "2026-07-19 09:43:04 UTC",
   "scholar_id": "u62rcKoAAAAJ",
-  "total_citations": 1851,
+  "total_citations": 1854,
   "h_index": 14,
   "i10_index": 19,
   "papers": {
@@ -13,7 +13,7 @@ window.__CITATION_DATA__ = {
     },
     "stm": {
       "title": "Stm: Spatiotemporal and motion encoding for action recognition",
-      "citations": 618,
+      "citations": 620,
       "year": "2019",
       "url": "u62rcKoAAAAJ:Tyk-4Ss8FVUC"
     }
