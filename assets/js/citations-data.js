@@ -1,19 +1,19 @@
 window.__CITATION_DATA__ = {
-  "last_updated": "2026-08-14 08:56:31 UTC",
+  "last_updated": "2026-08-17 08:30:01 UTC",
   "scholar_id": "u62rcKoAAAAJ",
-  "total_citations": 1895,
+  "total_citations": 1902,
   "h_index": 14,
   "i10_index": 20,
   "papers": {
     "ifrnet": {
       "title": "Ifrnet: Intermediate feature refine network for efficient frame interpolation",
-      "citations": 279,
+      "citations": 281,
       "year": "2022",
       "url": "u62rcKoAAAAJ:LkGwnXOMwfcC"
     },
     "stm": {
       "title": "Stm: Spatiotemporal and motion encoding for action recognition",
-      "citations": 619,
+      "citations": 621,
       "year": "2019",
       "url": "u62rcKoAAAAJ:Tyk-4Ss8FVUC"
     }
